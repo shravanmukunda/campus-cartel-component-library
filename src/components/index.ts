@@ -46,9 +46,6 @@ export type { AvatarProps } from './Avatar';
 export { Tabs } from './Tabs';
 export type { TabsProps } from './Tabs';
 
-export { Notification } from './Notification';
-export { Message } from './Message';
-
 // Re-export commonly used Ant Design components
 export { Row, Col, Space, Divider, Spin, Skeleton, Empty, Result } from 'antd';
 export * from '@ant-design/icons';

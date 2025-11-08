@@ -1,6 +1,5 @@
 import React from 'react';
 import { DatePicker as AntDatePicker, DatePickerProps as AntDatePickerProps } from 'antd';
-import type { RangePickerProps } from 'antd/es/date-picker';
 
 export interface DatePickerProps extends AntDatePickerProps {}
 
