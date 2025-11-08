@@ -15,8 +15,10 @@
   "description": "",
   "dependencies": {
     "antd": "^5.28.0",
+    "apexcharts": "^5.3.6",
     "dayjs": "^1.11.19",
     "react": "^19.2.0",
+    "react-apexcharts": "^1.8.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
