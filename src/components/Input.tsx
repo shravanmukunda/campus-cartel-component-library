@@ -29,11 +29,17 @@ const InputWrapper: React.FC<InputProps> = ({
 };
 
 // Create a new Input component that combines wrapper and Ant Design properties
-export const Input = Object.assign(InputWrapper, {
+export const Input: typeof InputWrapper & {
+  Password: typeof AntInput.Password;
+  TextArea: typeof AntInput.TextArea;
+  Search: typeof AntInput.Search;
+  Group: typeof AntInput.Group;
+} = Object.assign(InputWrapper, {
   Password: AntInput.Password,
   TextArea: AntInput.TextArea,
   Search: AntInput.Search,
   Group: AntInput.Group,
-});
+}) as any;
+
 
 export default Input;
